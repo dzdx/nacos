@@ -59,7 +59,7 @@ public class UtilAndComs {
     
     public static final int DEFAULT_POLLING_THREAD_COUNT =
             ThreadUtils.getSuitableThreadCount(1) > 1 ? ThreadUtils.getSuitableThreadCount(1) / 2 : 1;
-    
+
     public static final String HTTP = "http://";
     
     public static final String HTTPS = "https://";
